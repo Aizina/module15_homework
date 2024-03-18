@@ -1,0 +1,60 @@
+.j-btn-test{
+    display: flex;
+    margin: 10px;
+}
+
+.screen-size{
+    margin: 10px;
+}
+
+.btn_text{
+    margin-right: 10px;
+}
+
+#chat{
+    width: 600px;
+}
+#messages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 0 10px;
+}
+
+#messageInput{
+    border: 5px solid rgb(125, 165, 253);
+    color: grey;
+    width: 250px;
+}
+
+#sendButton, #locationButton{
+    background-color: rgb(125, 165, 253);
+    border: 5px solid rgb(125, 165, 253);
+    width: 150px;
+}
+
+#messages-window{
+    border: 5px solid rgb(125, 165, 253);
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sended {
+    align-self: flex-end;
+    width: 200px;
+    border: 5px solid rgb(125, 165, 253);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.recieved {
+    width: 200px;
+    border: 5px solid rgb(125, 165, 253);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 2px;
+    overflow: hidden;
+}
